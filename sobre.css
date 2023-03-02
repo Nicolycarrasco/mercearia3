@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(231, 232, 231);
+    font-family: Georgia;  
+}
+
+figure{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.botao{
+    font-size: 1em;
+    background: #a0baaa;
+    border: 0;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.2em 0.6em;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.2);  
+    position: absolute;
+    top: 130%;
+    left: 15%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background: #caebd7;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+a:link{
+    color: rgb(24, 122, 62);
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

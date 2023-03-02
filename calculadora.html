@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="calculadora.css" rel="stylesheet">
+    <title>Mercearia do João</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator__display">00</div>
+            <div class="calculator__keys">
+                <button class="key--operator" data-action="add">+</button>
+                <button class="key--operator" data-action="subtract">-</button>
+                <button class="key--operator" data-action="multiply">*</button>
+                <button class="key--operator" data-action="divide">/</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button data-action="limpar">AC</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button data-action="decimal">.</button>
+                <button>0</button>
+                <button data-action="decimal">,</button>
+                <button class="key--equal" data-action="calcular">=</button>
+            </div>
+        </div>
+    </div>
+    <button class="botao"><a href="login.html">Voltar</a></button>
+    <div class="sobre"><a href="sobre.html"><img src="img/64031.png" alt="Continuar" width="50" height="50"></a></div>
+     <!-- Plugin VLibras -->
+     <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- Plugin VLibras -->
+</body>
+</html>
